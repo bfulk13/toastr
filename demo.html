@@ -8,7 +8,7 @@
     <link href="build/toastr.css" rel="stylesheet" type="text/css" />
     <style>
         .row {
-            margin-left: 0;
+            margin-left: 10;
         }
     </style>
 </head>
@@ -23,7 +23,7 @@
                 <div class="control-group">
                     <div class="controls">
                         <label class="control-label" for="title">Title</label>
-                        <input id="title" type="text" class="input-large" placeholder="Enter a title ..." />
+                        <input id="title" type="text" class="input-large" placeholder="Enter some title ..." />
                         <label class="control-label" for="message">Message</label>
                         <textarea class="input-large" id="message" rows="3" placeholder="Enter a message ..."></textarea>
                     </div>
@@ -163,11 +163,6 @@
             </div>
         </div>
 
-        <div class="row">
-            <button type="button" class="btn btn-primary" id="showtoast">Show Toast</button>
-            <button type="button" class="btn btn-danger" id="cleartoasts">Clear Toasts</button>
-            <button type="button" class="btn btn-danger" id="clearlasttoast">Clear Last Toast</button>
-        </div>
 
         <div class="row" style='margin-top: 25px;'>
             <pre id='toastrOptions'></pre>
